@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ElMessiri';
+    src: url(../fonts/ElMessiri-Medium.ttf);
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'ElMessiri';
+    src: url(../fonts/ElMessiri-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'ElMessiri';
+    src: url(../fonts/ElMessiri-Bold.ttf);
+    font-weight: 700;
+}

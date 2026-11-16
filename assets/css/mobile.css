@@ -1,0 +1,166 @@
+@import url(./style.css);
+
+@media screen and (max-width: 1024px){
+    .banner-subtitle, .main h1{
+        width: 50%;
+    }
+    section{
+        margin-bottom: 80px;
+    }
+    .title{
+        margin-bottom: 30px;
+    }
+    .main h1{
+        margin-bottom: 0;
+    }
+}
+
+/* ноут */
+@media screen and (max-width: 769px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px
+    }
+    h6{
+        font-size: 14px;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    .service-card{
+        position: absolute;
+        width: 100%;
+        padding-top: 30%;
+        height: 0;
+        margin-bottom: 30px;
+    }
+
+    .service-card .service-card-cover{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .service .container, .about .container, .price .container, .contacts .container{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .about.box{
+        margin-bottom: 15px;
+    }
+
+    .about.box .cover{
+        padding-top: 30%;
+    }
+
+    .about .container:nth-child(2){
+        margin-bottom: 30px;
+    }
+
+    .about .container:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .price-list{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .price.box .cover{
+        margin-bottom: 15px;
+    }
+
+    .contacts-box{
+        width: 100% !important;
+    }
+
+    .contacts-box .cover{
+        padding-top: 50%;
+    }
+
+    .contacts-box:first-child{
+        margin-bottom: 30px;
+    }
+
+    .card-sign:first-child{
+        margin-bottom: 15px;
+    }
+}
+
+/* планшет */
+@media screen and (max-width: 600px){
+    .banner-subtitle, .main h1{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .wrapper {
+        width: 92%;
+    }
+
+    .main {
+        height: 350px;
+    }
+
+    .banner-subtitle {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .banner-subtitle h3 {
+        text-align: center;
+    }
+
+    .title h2 {
+        margin: 0 10px;
+    }
+
+    .service-card-cover, .service-card:first-child .service-card-cover {
+        height: 190px;
+        min-height: 190px;
+    }
+
+    .price-list li {
+        align-items: flex-start;
+    }
+
+    .price-list-title {
+        align-items: flex-start;
+    }
+
+    .contacts-card {
+        padding: 18px;
+    }
+
+    .contacts-list li {
+        font-size: 14px;
+    }
+}

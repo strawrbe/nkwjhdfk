@@ -1,0 +1,340 @@
+
+body{
+    background-color: #162831;
+    font-family: 'ElMessiri';
+    color: white;
+    font-weight: 500;
+}
+
+header .btn, a{
+    color: white;
+}
+h1, h2, h3, h3{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 64px;
+}
+
+
+h2{
+    font-size: 42px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+section{
+    margin-bottom: 150px;
+}
+
+.container, .price li{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 50px;
+}
+
+
+header .logo, .to-sign{
+    width: 15%;
+}
+
+.to-sign{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .btn{
+    padding: 9px 15px;
+    background-color: #018ABE;
+}
+
+.menu{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: #018ABE;
+}
+
+.main{
+    display: flex;
+    height: 600px;
+    background-image: url(../img/main-section.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    margin-bottom: 40px;
+}
+
+.main h1{
+    width: 33%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title h2{
+    margin: 0 45px;
+}
+
+.service-card{
+    width: 32%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-card-cover{
+    width: 100%;
+    height: 48%;
+    background-image: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../img/cardd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.service-card:first-child  .service-card-cover{
+    height: 100%;
+}
+
+.service-card-cover h3{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.service-card-cover:hover{
+    border-bottom: 7px solid #018ABE;
+}
+
+.about .container:nth-child(2){
+    margin-bottom: 100px;
+}
+
+.box{
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about.box.cover{
+    padding-top: 32%;
+    background-image: url(../img/cardd.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.about p{
+    width: 80%;
+}
+
+.about p:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.about h3{
+    margin-bottom: 30px;
+}
+
+.price-list{
+    width: 70%;
+}
+
+.price-list-title{
+    display: flex;
+    align-items: center;
+
+}
+
+.price-list-title h5{
+    margin-left: 20px;
+}
+
+.price-list li{
+margin-bottom: 30px;
+}
+
+.price-list li:last-child{
+    margin-bottom: 0;
+}
+
+.price.box .cover{
+    width: 100%;
+    padding-top: 70%;
+    background: url(../img/certificate.jpg.png) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.price.box h4{
+    text-align: center;
+    width: 100%;
+}
+
+.contacts {
+    margin-bottom: 0;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 604px;
+}
+
+.contacts-map {
+    width: 66%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contacts-info {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-card {
+    background-color: #018ABE;
+    border-radius: 10px;
+    padding: 30px;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.contacts-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.contacts-card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #FFFFFF;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.contacts-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.contacts-list li svg {
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.contacts .btn {
+    background-color: white;
+    color: #018ABE;
+    height: 36px;
+    width: 155px;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 15px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: auto;
+    font-family: 'ElMessiri', sans-serif;
+    transition: 0.3s;
+}
+
+.contacts-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.contacts-btn:hover {
+    background-color: #e0e0e0;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 400;
+}
+
+@import url('./mobile.css');
